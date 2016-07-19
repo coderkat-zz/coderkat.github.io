@@ -23,6 +23,7 @@ markdown: kramdown
 
 # Include plugins
 gems:
+  - jekyll-sitemap
 
 collections:
     travel:
