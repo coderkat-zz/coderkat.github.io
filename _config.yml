@@ -18,6 +18,10 @@ url: "coderkat.github.io"
 twitter_username: satchkat
 github_username:  coderkat
 
+# Enforce SSL
+url: https://katking.me   # with the https protocol
+enforce_ssl: katking.me   # without any protocol
+
 # Build settings
 # Standard markdown:
 markdown: kramdown
