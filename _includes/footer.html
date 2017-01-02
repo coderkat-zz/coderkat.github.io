@@ -8,7 +8,11 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% if page.title == "Music" %}
+            <li><a href="mailto:{{ site.email }}">{{ site.music_email }}</a></li>
+          {% else %}
+            <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          {% endif %}
         </ul>
       </div>
 
